@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SLAC Commons Tweaks feature.
+ */
+
+include_once 'slac_commons_tweaks.features.inc';
