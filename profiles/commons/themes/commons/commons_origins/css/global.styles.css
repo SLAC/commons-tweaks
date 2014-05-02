@@ -15,7 +15,7 @@
 .commons-pod, .page-user .pane-views-panes, .front.not-logged-in .pane-views-panes, .front.not-logged-in
 .pane-views, .front.not-logged-in
 body.page-node .pane-views-panes, .page-events .view-commons-events-upcoming .view-content, .pane-commons-bw-group, .view-display-id-commons_events_upcoming_page .views-row, .view-commons-groups-directory > .view-content > .views-row,
-.view-commons-homepage-content .node-teaser.node-group > .view-content > .views-row, body.front.logged-in .view-commons-homepage-content > .view-content, body.front.logged-in #views-exposed-form-commons-homepage-content-panel-pane-1 .views-exposed-widgets.widgets-active, .page-events .region-three-25-50-25-third .pane-views-panes, .pane-search-result .block-content .search-results, .page-search-user .user-results {
+.view-commons-homepage-content .node-teaser.node-group > .view-content > .views-row, body.front.logged-in .view-commons-homepage-content > .view-content, body.front.logged-in #views-exposed-form-commons-homepage-content-panel-pane-1 .views-exposed-widgets.widgets-active, .page-events .region-three-25-50-25-third .pane-views-panes, .pane-search-result .block-content .search-results, .page-search-user .user-results .view-blog-listing .views-row{
   background-color: white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -254,7 +254,11 @@ var {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+/* adding a utility class
+ */
 
+.fleft {float:left}
+.fright {float:right;}
 /* =============================================================================
  *   Branding
  * ========================================================================== */
@@ -487,6 +491,13 @@ var {
   -moz-box-shadow: #858585 1px 1px 4px;
   box-shadow: #858585 1px 1px 4px;
   line-height: 0;
+}
+.view-blog-listing .views-row .views-field-picture{
+  float:left;
+   margin-right:2em;
+}
+.view-id-chi_changs_posts .views-row .views-field-field-enterprise-blog-picture img{
+  margin-right:1em;
 }
 .node .user-picture:after, .comment .user-picture:after, .privatemsg-message .user-picture:after, .node
 .views-field-picture:after, .comment
